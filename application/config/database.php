@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'id186817_pis_codeigniter',
-	'password' => 'asiamotor222',
-	'database' => 'id186817_pis_codeigniter',
-	'dbdriver' => 'mysqli',
+	'dsn'	=> 'postgres://qcokbdpyxgwxdj:6adf6dca378533e49b45b8552ccd3e181b7dfea4f41d2739ef47375b5175528f@ec2-54-243-252-91.compute-1.amazonaws.com:5432/d7i5u53idenm2g',
+	'hostname' => 'ec2-54-243-252-91.compute-1.amazonaws.com',
+	'username' => 'qcokbdpyxgwxdj',
+	'password' => '6adf6dca378533e49b45b8552ccd3e181b7dfea4f41d2739ef47375b5175528f',
+	'database' => 'd7i5u53idenm2g',
+	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
