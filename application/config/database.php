@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'pgsql:
+	'dsn'	=> 'postgre:
 		    . host=ec2-50-19-218-160.compute-1.amazonaws.com;
 		    . dbname=ddobj88ri9slg;
 		    . user=kkwdhpaxyjcwta;
