@@ -74,7 +74,13 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> '',
+	'dsn'	=> 'pgsql:
+		    . host=ec2-50-19-218-160.compute-1.amazonaws.com;
+		    . dbname=ddobj88ri9slg;
+		    . user=kkwdhpaxyjcwta;
+		    . port=5432;
+		    . sslmode=require;
+		    . password=bf06764a2b5141b0c99977b159eb02ec6b5c8d032c3bd50732c4e70ce8a2e7e8',
 	'hostname' => 'ec2-50-19-218-160.compute-1.amazonaws.com',
 	'username' => 'kkwdhpaxyjcwta',
 	'password' => 'bf06764a2b5141b0c99977b159eb02ec6b5c8d032c3bd50732c4e70ce8a2e7e8',
