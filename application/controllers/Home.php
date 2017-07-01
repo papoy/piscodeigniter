@@ -10,7 +10,9 @@ class Home extends CI_Controller{
 
     function index(){
         //echo "Hai.. ini aplikasi simple gis";
-        $this->load->view('homepage');
+//         $this->load->view('homepage');
+		$data = array('content' => 'admin/formhome');
+        $this->load->view('templates/template-admin', $data);
 
 
     }
