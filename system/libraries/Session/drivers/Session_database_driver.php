@@ -60,7 +60,7 @@ class CI_Session_database_driver extends CI_Session_driver implements SessionHan
 	 *
 	 * @var	bool
 	 */
-	protected $_row_exists = FALSE;
+	protected $_row_exists = TRUE;
 
 	/**
 	 * Lock "driver" flag
